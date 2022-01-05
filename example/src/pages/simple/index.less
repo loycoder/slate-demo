@@ -1,0 +1,48 @@
+.simple-example {
+  position: relative;
+  height: 100%;
+
+  .example-editor {
+    width: 75%;
+    margin: auto;
+
+    .example-toolbar {
+      display: flex;
+      margin-bottom: 20px;
+
+      .extend-toolbar {
+        display: inline-flex;
+
+        button {
+          width: 85px;
+        }
+      }
+    }
+
+    #rich-text-editor {
+      width: 890px;
+      min-height: 800px;
+      margin: auto;
+    }
+  }
+}
+
+.error-tips {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%), 0 9px 28px 8px rgb(0 0 0 / 5%);
+
+  .refresh-btn {
+    color: green;
+    padding: 0 10px;
+  }
+}
